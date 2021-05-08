@@ -1,4 +1,4 @@
 module.exports = {
-  publicPath: '/project-name/',
+  publicPath: '/vue3-to-be-pharaoh/',
   outputDir: 'docs'
 }
