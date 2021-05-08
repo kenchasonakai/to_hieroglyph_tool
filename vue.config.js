@@ -1,4 +1,5 @@
 module.exports = {
-  publicPath: '/vue3-to-be-pharaoh/',
-  outputDir: 'docs'
+  publicPath: process.env.NODE_ENV === 'production'
+    ? '/vue3-to-be-pharaoh/'   //任意
+    : '/'
 }
